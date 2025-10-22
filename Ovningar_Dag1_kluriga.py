@@ -24,22 +24,22 @@
 # - Skriv en kort sammanfattning
 #
 # Exempelkod att avkommentera:
-#"from posixpath import split
+# "from posixpath import split
 
 
-#belopp = input("Skriv belopp separerade med kommatecken: ")
-#delar = belopp.split(",")
-#total = 0
-#antal = 0
-#for d in delar:
+# belopp = input("Skriv belopp separerade med kommatecken: ")
+# delar = belopp.split(",")
+# total = 0
+# antal = 0
+# for d in delar:
 #     pris = int(d.strip())
 #     total += pris
 #     antal += 1
-#print("Antal biljetter:", antal)
-#print("Total summa:", total, "kr")
+# print("Antal biljetter:", antal)
+# print("Total summa:", total, "kr")
 #
 # Uppgradera med input:
- 
+
 
 # ------------------------------------------------------------
 # Done!!!!2) Temperaturvakt – klassificera mätningar (if/elif, loop, räknare)
@@ -53,11 +53,11 @@
 # - Räkna hur många som är "lagom" (använd en räknare)
 #
 # Exempelkod:
-#temps = [2.5, 7.0, 12.3, 16.8, 22.0, 28.1] 
-#temps = [int(input(" Write the temperature: "))]
-#lagom_count = 0
- 
-#for t in temps:
+# temps = [2.5, 7.0, 12.3, 16.8, 22.0, 28.1]
+# temps = [int(input(" Write the temperature: "))]
+# lagom_count = 0
+
+# for t in temps:
 #     if t < 5:
 #         kategori = "kallt"
 #     elif t <= 10:
@@ -88,28 +88,28 @@
 # - Om op är "/" och b==0 -> skriv vänligt felmeddelande
 #
 # Exempelkod:
-#a = float(input("a: "))
-#b = float(input("b: "))
-#op = input("Operator (+ - * /): ")
-#if op == "+":
+# a = float(input("a: "))
+# b = float(input("b: "))
+# op = input("Operator (+ - * /): ")
+# if op == "+":
 #    print(a + b)
-#elif op == "-":
+# elif op == "-":
 #    print(a - b)
-#elif op == "*":
+# elif op == "*":
 #    print(a * b)
-#elif op == "/":
+# elif op == "/":
 #    if b == 0:
 #        print("Kan inte dela med noll.")
 #    else:
 #        print(a / b)
-#else:
+# else:
 #    print("Okänd operator:", op)
 #
 # Uppgradera med input:
 # a = float(input("a: ")); b = float(input("b: ")); op = input("Operator (+ - * /): ")
 
 # ------------------------------------------------------------
-#Done!!! 4) Gästlista – snygg split (split, strip, sträng → lista → strängar)
+# Done!!! 4) Gästlista – snygg split (split, strip, sträng → lista → strängar)
 # ------------------------------------------------------------
 # Startvärden:
 # gäster = "Anna, Jesper,  Marcus  ,Linn  "
@@ -120,14 +120,14 @@
 # - Skriv ett namn per rad
 #
 # Exempelkod:
-#gäster = "Anna, Jesper,  Marcus  ,Linn  "
-#gäster = input("Skriv namn, separerade med kommatecken: ")
-#delar = gäster.split(",")
-#for namn in delar:
+# gäster = "Anna, Jesper,  Marcus  ,Linn  "
+# gäster = input("Skriv namn, separerade med kommatecken: ")
+# delar = gäster.split(",")
+# for namn in delar:
 #    print(namn.strip())
 
-#Uppgradera med input:
-#gäster = input("Skriv namn, separerade med kommatecken: ")
+# Uppgradera med input:
+# gäster = input("Skriv namn, separerade med kommatecken: ")
 
 # ------------------------------------------------------------
 # 5) Loggbok – räkna vokaler (loop, strängtest, å/ä/ö)

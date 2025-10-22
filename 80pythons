@@ -1,62 +1,103 @@
-#12
-#suitcase_contents = ["Fackla", "Rep", "Svärd"]
-#print("---".join(suitcase_contents))
+# 12
+# suitcase_contents = ["Fackla", "Rep", "Svärd"]
+# print("---".join(suitcase_contents))
 
 # ------------------------------------------------------------
-#13
-#a = "Loading..."
-#b = "Done!!!"
-#print(a + " " + b)
+# 13
+# a = "Loading..."
+# b = "Done!!!"
+# print(a + " " + b)
 
 # ------------------------------------------------------------
-#14
-#Rolfs_mana = float("80.5")
-#print(Rolfs_mana)
+# 14
+# Rolfs_mana = float("80.5")
+# print(Rolfs_mana)
 
 # ------------------------------------------------------------
-#15. Din mana är 80.5. Du kastar en formel som kostar 15.5. Beräkna och skriv ut hur mycket mana du har kvar.
-#Rolfs_mana = float("80.5")
-#spell_cost = float("15.5")
-#remaining_mana = Rolfs_mana - spell_cost
-#print("Din mana är", Rolfs_mana, ". Du kastar en formel som kostar", spell_cost, ". #Du har", remaining_mana, "mana kvar.")
+# 15. Din mana är 80.5. Du kastar en formel som kostar 15.5. Beräkna och skriv ut hur mycket mana du har kvar.
+# Rolfs_mana = float("80.5")
+# spell_cost = float("15.5")
+# remaining_mana = Rolfs_mana - spell_cost
+# print("Din mana är", Rolfs_mana, ". Du kastar en formel som kostar", spell_cost, ". #Du har", remaining_mana, "mana kvar.")
 
 # ------------------------------------------------------------
-#16. Skapa del1 = "Cyber" och del2 = "Punk". Skapa och skriv ut en ny sträng som sätter ihop dem till ett ord.
+# 16. Skapa del1 = "Cyber" och del2 = "Punk". Skapa och skriv ut en ny sträng som sätter ihop dem till ett ord.
 
-#del1 = "Cyber"
-#del2 = "Punk"
-#new_word = del1 + del2
-#print(new_word)
-
-# ------------------------------------------------------------
-#17. Skapa strängen varningsljud = "Pip! ". Skapa och skriv ut en ny sträng där varningsljudet upprepas 5 gånger.
-#warning_sound = "PIP!!"
-#print(warning_sound * 5)
+# del1 = "Cyber"
+# del2 = "Punk"
+# new_word = del1 + del2
+# print(new_word)
 
 # ------------------------------------------------------------
-#18. 160 rymd-marinsoldater ska sova i kapslar som rymmer 7 personer var. Skriv ett program som skriver ut:
+# 17. Skapa strängen varningsljud = "Pip! ". Skapa och skriv ut en ny sträng där varningsljudet upprepas 5 gånger.
+# warning_sound = "PIP!!"
+# print(warning_sound * 5)
+
+# ------------------------------------------------------------
+# 18. 160 rymd-marinsoldater ska sova i kapslar som rymmer 7 personer var. Skriv ett program som skriver ut:
 #  Antal fulla kapslar.
 #  Antal soldater som blir över.
 
-#space_marines = 160
-#life_boat_capacity = 7
-#full_life_boats = space_marines // life_boat_capacity
-#leftover_marines = space_marines % life_boat_capacity
-#print("Antal fulla kapslar:", full_life_boats)
-#print("Antal soldater som blir över:", leftover_marines)
+# space_marines = 160
+# life_boat_capacity = 7
+# full_life_boats = space_marines // life_boat_capacity
+# leftover_marines = space_marines % life_boat_capacity
+# print("Antal fulla kapslar:", full_life_boats)
+# print("Antal soldater som blir över:", leftover_marines)
 
 
-#MARINES_TOTAL = 160
-#POD_CAPACITY = 7  # Using caps for constants is a Python convention
+# MARINES_TOTAL = 160
+# POD_CAPACITY = 7  # Using caps for constants is a Python convention
 
-#full_pods, remaining_marines = divmod(MARINES_TOTAL, POD_CAPACITY)
-#print("Antal fulla kapslar:", full_pods)
+# full_pods, remaining_marines = divmod(MARINES_TOTAL, POD_CAPACITY)
+# print("Antal fulla kapslar:", full_pods)
 
-#-------------------------------------------------------------
-#19. Ett rymdskepp kostar 5000.0 krediter. Beräkna och skriv ut priset efter en prisökning på 10% (dvs. multiplicera med 1.10).
+# -------------------------------------------------------------
+# 19. Ett rymdskepp kostar 5000.0 krediter. Beräkna och skriv ut priset efter en prisökning på 10% (dvs. multiplicera med 1.10).
 
-#ship_price = 5000.0
-#new_price = ship_price * 1.10
-#print("Nytt pris efter prisökning:", new_price)
+# ship_price = 5000.0
+# new_price = ship_price * 1.10
+# print("Nytt pris efter prisökning:", new_price)
 
 # ------------------------------------------------------------
+# 20.
+
+# level = "Level: 5"
+# hp = "and HP: 100.0"
+# status = f"{level} {hp}"
+# print(status)
+
+# ------------------------------------------------------------
+# Block 2
+# 1
+# agent_name = input("What is you Agentname?: ")
+# print(agent_name)
+
+# ------------------------------------------------------------
+# 2
+# home_planet = input("What is your home planet?: ")
+# print(f"{home_planet} is a nice planet!")
+
+# ------------------------------------------------------------
+# 3
+# recept = "pancakes"
+# print(recept[0])
+
+# ------------------------------------------------------------
+# 4
+# recipe = "Pancakes"
+# print(recipe[-1])
+# print(recipe[0])
+
+# ------------------------------------------------------------
+# 5
+# codeword = "DevOpsIsCool"
+# print(codeword[0:6])
+
+# ------------------------------------------------------------
+# 6
+# codeword = "DevOpsIsCool"
+# print(codeword[8:])
+
+# ------------------------------------------------------------
+# 7
