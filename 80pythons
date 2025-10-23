@@ -230,3 +230,18 @@
 
 # ------------------------------------------------------------
 # 9
+# hero_level = input("Enter you hero level here:")
+# if hero_level >= "10":
+#    print("You can learn the FIREBALL spell!")13
+
+# ------------------------------------------------------------
+# 10
+#
+# your_age = input("Enter your age here:")
+# if your_age >= "17" and ticket_status == "yes":
+#    print("You can enter the concert!")
+# else:
+#    print("You cannot enter the concert.")
+
+# ------------------------------------------------------------
+# 11
