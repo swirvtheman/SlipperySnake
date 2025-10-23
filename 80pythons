@@ -170,3 +170,63 @@
 # ------------------------------------------------------------
 # Block 3
 # 1
+# question = input("How many bananas do you want?:")
+# answer = int(question)
+# print(answer)
+# ------------------------------------------------------------
+
+# 2
+# potion_value = input("How much is the potion?:")
+# potion_price = float(potion_value)
+# print(potion_price)
+
+# ------------------------------------------------------------
+# 3
+# age_request = input("How old are you?:")
+# age = int(age_request)
+# if age >= 18:
+#    print("You are a fucking big boy/girl now!!!!")
+# elif age < 18:
+#    print("You are still a kiddo!")
+
+# ------------------------------------------------------------
+# 4
+# magic_word = input("Enter the magic word:")
+# is_magic = magic_word == "DevOps"
+# if is_magic:
+#    print("You know the magic word!")
+# else:
+#    print("You don't know the magic word.")
+
+# ------------------------------------------------------------
+# 5
+# temp_out = input("What is the temperature outside in Celsius?:")
+# temp_celsius = float(temp_out)
+# if temp_celsius > 25.0:
+#    print("It's warm outside!")
+# elif temp_celsius > 15.0:
+#    print("Its alright outside!")
+# else:
+#    print("It's cold outside!")
+
+# ------------------------------------------------------------
+# 6
+# pick_one = input("Answer Yes or No!!:").strip()
+# if pick_one.lower().find == "yes":
+#    print("You chose to continue the adventure!!!")
+
+# ------------------------------------------------------------
+# 7
+# plyer_status = input("Are you ready or busy?")
+# if plyer_status.lower() != "ready":
+#    print("Player is not ready yet.")
+
+# ------------------------------------------------------------
+# 8
+# gold_total = input("How much gold do you have?:")
+# gold_amount = int(gold_total)
+# if not gold_amount >= 50:
+#    print("You need at least 50 gold to buy the sword.")
+
+# ------------------------------------------------------------
+# 9
