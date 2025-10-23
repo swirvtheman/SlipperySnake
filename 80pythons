@@ -101,3 +101,72 @@
 
 # ------------------------------------------------------------
 # 7
+# text = "abcRECEPTxyz"
+# print(text[::-1])
+
+# ------------------------------------------------------------
+# 8
+# password = input("Enter user password here: ")
+# print(len(password))
+
+# ------------------------------------------------------------
+# 10
+# name = "grogu"
+# print(name.upper())
+
+# ------------------------------------------------------------
+# 11
+# next_move = input("ATTACK or RETREAT:")
+# print(next_move.lower())
+
+# ------------------------------------------------------------
+# 12
+# book_name = "lord of the rings"
+# print(book_name.title())
+
+# ------------------------------------------------------------
+# 13
+# user_name = input("Enter username: ")
+# clean = user_name.strip("")
+# print(clean)
+
+# ------------------------------------------------------------
+# 14 Replace word stored and using f string to print corrected sentence#####
+# mistake = "I like Jovo"
+# corrected = mistake.replace("Jovo", "Java")
+# print(f"corrected: {corrected}")
+
+# ------------------------------------------------------------
+# 15
+# list = "milk,eggs,bread"
+# print(list.split(","))
+
+# ------------------------------------------------------------
+# 16
+# text = "Where in the galay is Xur?"
+# print(text.index("Xur"))
+
+# ------------------------------------------------------------
+# 17
+# word = "banana"
+# print(word.count("a"))
+
+# ------------------------------------------------------------
+# 18
+# file = "pic.png"
+# print(file.startswith("pic"))
+
+# ------------------------------------------------------------
+# 19
+# file = "document.pdf"
+# print(file.endswith("gif"))
+
+# ------------------------------------------------------------
+# 20 Need to created a boolean that checks if the word "password" is in the given phrase
+# phrase = "password is: banaba"
+# find_password = "password" in phrase
+# print(find_password)
+
+# ------------------------------------------------------------
+# Block 3
+# 1
