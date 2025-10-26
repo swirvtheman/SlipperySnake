@@ -245,3 +245,17 @@
 
 # ------------------------------------------------------------
 # 11
+# gold_key = input("Do you have the gold key? (yes/no):").strip().lower()
+# dyrk = input("Do you have the dyrk? (yes/no):").strip().lower()
+# if gold_key == "yes" and dyrk == "yes":
+#    print("You can open the treasure chest!")
+# else:
+#    print("Fuck Off!!!")
+
+# -------------------------------------------------------------
+# 12
+# is_pissed = False
+# if is_pissed:
+#    print("Take a deep breath and relax.")
+# else:
+#    print("Glad to hear you're not pissed off!")
