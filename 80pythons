@@ -259,3 +259,24 @@
 #    print("Take a deep breath and relax.")
 # else:
 #    print("Glad to hear you're not pissed off!")
+
+# --------------------------------------------------------------
+# 13
+# user_name = input("What is your name?")
+# if user_name != "":
+#    print(f"Hello, {user_name}!")
+
+# ------------------------------------------------------------
+# 14
+# user_name = input("What is your name?")
+# if user_name == "":
+#    print(f"Hello, you must enter a name to save your game!")
+
+# ------------------------------------------------------------
+# 15
+# user_lives = input("How many lives do you have left?: ")
+# if user_lives <= "0":
+#    print("Game Over lil bitch!!!")
+
+# ---------------------------------------------------------
+# 16
