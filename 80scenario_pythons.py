@@ -29,3 +29,17 @@
 
 # ---------------------------------------------------------------
 # 5
+# price_tag = float(456.34)
+# rebate = price_tag * float(0.7)
+# print(f"You have recieved 30% off you item.Your final price is: {rebate:.2f}"
+
+# -----------------------------------------------------------------
+# 6
+# steps_today = 10756
+# steps_yesterday = 15346
+# print(f"You have taken {steps_today + steps_yesterday} steps total.")
+
+# --------------------------------------------------------------
+# 7
+rain_yesterday = 10
+rain_today = 7
