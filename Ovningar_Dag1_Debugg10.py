@@ -11,13 +11,14 @@
 
 
 # ------------------------------------------------------------
-# 1) Split & strip – extra mellanslag kvar
+# Done!!! 1) Split & strip – extra mellanslag kvar
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
 # gäster = "Anna, Jesper,  Marcus"
-# delar = gäster.split(",")
-# print(delar)  # ska ge rena namn på separata rader
-#
+# delar = [name.strip() for name in gäster.split(",") if name.strip()]
+# for name in delar:
+#    print(name)  # ska ge rena namn på separata rader
+
 # Vad ska det göra?
 # - Skriva namnen ett per rad, utan extra mellanslag.
 # Ledtråd:
@@ -26,10 +27,10 @@
 
 
 # ------------------------------------------------------------
-# 2) Heltal + sträng – typfel
+# Done!!! 2) Heltal + sträng – typfel
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
-# antal = "3"
+# antal = 3
 # pris = 79
 # total = antal * pris
 # print("Totalt:", total, "kr")
@@ -41,15 +42,15 @@
 
 
 # ------------------------------------------------------------
-# 3) If-villkor – fel operator
+# Done!!! 3) If-villkor – fel operator
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
 # hastighet = 95
 # grans = 90
-# if hastighet < grans:
-#     print("För fort")
+# if hastighet > grans:
+#    print("För fort")
 # else:
-#     print("OK")
+#    print("OK")
 #
 # Vad ska det göra?
 # - Meddela att 95 är "För fort".
@@ -58,12 +59,12 @@
 
 
 # ------------------------------------------------------------
-# 4) Räkna 1..n – off-by-one
+# Done!!! 4) Räkna 1..n – off-by-one
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
-# n = 5
+# n = 6
 # for i in range(1, n):
-#     print(i)
+#    print(i)
 #
 # Vad ska det göra?
 # - Skriva 1, 2, 3, 4, 5 på varsin rad.
@@ -72,12 +73,12 @@
 
 
 # ------------------------------------------------------------
-# 5) Tidsformat – modulus miss
+# Done!!! 5) Tidsformat – modulus miss
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
 # sek = 3725
 # h = sek // 3600
-# m = sek // 60
+# m = (sek % 3600) // 60
 # s = sek % 60
 # print(h, m, s)  # ska bli 1 2 5
 #
@@ -95,8 +96,8 @@
 # vokaler = "aeiouyAEIOUY"
 # antal = 0
 # for ch in text:
-#     if ch in vokaler:
-#         antal += 1
+#    if ch in vokaler:
+#        antal += 1
 # print("Vokaler:", antal)
 #
 # Vad ska det göra?
@@ -106,13 +107,13 @@
 
 
 # ------------------------------------------------------------
-# 7) Case-insensitive jämförelse – glömmer strip/lower
+# Done!! 7) Case-insensitive jämförelse – glömmer strip/lower
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
-# a = " Hej"
-# b = "hej  "
+# a = " Hej".strip().lower()
+# b = "hej  ".strip().lower()
 # if a == b:
-#     print("lika")
+#    print("lika")
 # else:
 #     print("olika")
 #
@@ -144,13 +145,13 @@
 
 
 # ------------------------------------------------------------
-# 9) Spegeltext – fel byggsätt
+# Done!!! 9) Spegeltext – fel byggsätt
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
 # s = "Python"
 # rev = ""
 # for ch in s:
-#     rev = rev + s  # lägger till hela s varje varv
+#    rev = ch + rev   # lägger till hela s varje varv
 # print(rev)
 #
 # Vad ska det göra?
@@ -160,12 +161,12 @@
 
 
 # ------------------------------------------------------------
-# 10) Slicing – sista tecknet missas
+# Done!! 10) Slicing – sista tecknet missas
 # ------------------------------------------------------------
 # FEL KOD (avkommentera för att testa):
 # text = "Programmering"
-# # plocka de sista 4 tecknen
-# sista4 = text[len(text)-4 : len(text)-1]
+# plocka de sista 4 tecknen
+# sista4 = text[-4:]
 # print(sista4)
 #
 # Vad ska det göra?
