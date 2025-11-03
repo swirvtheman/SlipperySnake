@@ -89,17 +89,17 @@
 
 
 # ------------------------------------------------------------
-# 6) Vokalräknare – saknar ÅÄÖ
+# Done!!! 6) Vokalräknare – saknar ÅÄÖ
 # ------------------------------------------------------------
-# FEL KOD (avkommentera för att testa):
+# FEL KOD(avkommentera för att testa):
 # text = "Göteborg är härligt"
-# vokaler = "aeiouyAEIOUY"
+# vokaler = "aeiouyAEIOUYåäöÅÄÖ"
 # antal = 0
 # for ch in text:
 #    if ch in vokaler:
 #        antal += 1
 # print("Vokaler:", antal)
-#
+
 # Vad ska det göra?
 # - Räkna alla vokaler, även å/ä/ö (både små och stora).
 # Ledtråd:

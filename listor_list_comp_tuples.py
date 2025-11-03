@@ -58,3 +58,45 @@
 # print(f"Ascending: {sort_up}")
 # print(f"Descending: {sort_down}")
 # -----------------------------------------------
+
+# 7
+# supplies = ["penna", "sudd", "block", "parm", "ruler"]
+
+# sort_reverse = supplies.copy()
+# sort_reverse.reverse()
+
+# print(f" Reversed: {sort_reverse} and Original: {supplies}")
+# -----------------------------------------------
+
+# 8
+# numbers = [3, 5, 7, 12, 2, 15, 14, 11, 10, 8, 9, 1, 6, ]
+# first_three = numbers.copy()
+# print(first_three[0:3])
+# print(numbers[-3:])
+# print(numbers[0::2])
+# ------------------------------------------------
+
+# 9
+# animals = ["cat", "dog", "bird", "snake"]
+# for number, name in enumerate(animals, start=1):
+#    print(f"{number}. {name}")
+# -------------------------------------------------
+
+# 10
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+#           11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+# even_numbers = numbers.copy
+# even_numbers = tuple(x for x in numbers if x % 2 == 0)
+# print(f"Even numbers are: {even_numbers}")
+# -------------------------------------------------
+
+# 11
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# squares_list = [x**2 for x in numbers]
+# print(squares_list)
+# --------------------------------------------------
+
+# 12
+numbers = list(range(1, 20 + 1))
+print(numbers)
