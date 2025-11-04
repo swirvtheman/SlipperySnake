@@ -98,5 +98,10 @@
 # --------------------------------------------------
 
 # 12
-numbers = list(range(1, 20 + 1))
-print(numbers)
+# numbers = list(range(1, 20 + 1))
+# even_numbers = numbers.copy()
+# even_numbers = [num for num in numbers if num % 2 == 0]
+# print(even_numbers)
+# --------------------------------------------------
+
+# 13
